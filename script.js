@@ -53,10 +53,10 @@ function resetFunc() {
         p.value = 0;
         p.button.disabled = false;
         p.score.classList.remove("has-text-success", "has-text-danger");
-        menuValue = parseInt(optionsMenu.value);
-        tempTarget.selected = false;
-        tempTarget.remove();
     }
+    menuValue = parseInt(optionsMenu.value);
+    tempTarget.selected = false;
+    tempTarget.remove();
 }
 
 p1.button.addEventListener("click", () => {
